@@ -1,0 +1,56 @@
+Extracting TF-IDF features...
+
+Splitting dataset...
+Training samples: 621
+Testing samples: 267
+
+===================================
+Naive Bayes
+===================================
+Test Accuracy: 0.9139
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    politics       0.91      0.91      0.91       129
+      sports       0.91      0.92      0.92       138
+
+    accuracy                           0.91       267
+   macro avg       0.91      0.91      0.91       267
+weighted avg       0.91      0.91      0.91       267
+
+Cross Validation Accuracy: 0.8814
+
+===================================
+Logistic Regression
+===================================
+Test Accuracy: 0.9139
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    politics       0.90      0.93      0.91       129
+      sports       0.93      0.90      0.92       138
+
+    accuracy                           0.91       267
+   macro avg       0.91      0.91      0.91       267
+weighted avg       0.91      0.91      0.91       267
+
+Cross Validation Accuracy: 0.8803
+
+===================================
+Support Vector Machine
+===================================
+Test Accuracy: 0.9139
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    politics       0.87      0.96      0.92       129
+      sports       0.96      0.87      0.91       138
+
+    accuracy                           0.91       267
+   macro avg       0.92      0.92      0.91       267
+weighted avg       0.92      0.91      0.91       267
+
+Cross Validation Accuracy: 0.86
